@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <listeners>
+        <listener class-name="apiUtilities.ExtentReportManager"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="D:/workspace/KanbanizeBookStoreAPI/src">
+        <classes>
+            <class name="apiTest.UserTests">
+                <methods>
+                    <include name="testCreateUser"/>
+                    <include name="testGetUser"/>
+                    <include name="testCreateUserWithEmptyUsername"/>
+                    <include name="testCreateUserWithEmptyPassword"/>
+                    <include name="testCreateUserWithShortPassword"/>
+                    <include name="testCreateUserWithPasswordWithoutUpperCase"/>
+                    <include name="testCreateUserWithPasswordWithoutLowerCase"/>
+                    <include name="testCreateUserWithPasswordWithoutSpecialChar"/>
+                    <include name="testCreateUserWithPasswordWithoutNumber"/>
+                </methods>
+            </class>
+
+            <class name="apiTest.BookStoreTests">
+                <methods>
+                    <include name="getBooksAndAddBookInCollection"/>
+                    <include name="replaceBookInCollection"/>
+                    <include name="deleteBookInCollection"/>
+                    <include name="addBookInCollectionWithInvalidIsbn"/>
+                    <include name="deleteNotExistingBookInCollection"/>
+                    <include name="checkBookPagesByIsbn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

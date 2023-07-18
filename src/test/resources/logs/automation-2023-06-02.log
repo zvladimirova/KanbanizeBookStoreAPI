@@ -1,0 +1,45 @@
+2023-06-02 10:12:20.306 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:20.314 [main] INFO  apiUtilities.ExtentReportManager - testCreateUser Started
+2023-06-02 10:12:26.084 [main] INFO  apiUtilities.ExtentReportManager - testCreateUser Passed
+2023-06-02 10:12:26.089 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:26.089 [main] INFO  apiUtilities.ExtentReportManager - testGetUser Started
+2023-06-02 10:12:26.456 [main] INFO  apiUtilities.ExtentReportManager - testGetUser Passed
+2023-06-02 10:12:26.458 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:26.458 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithEmptyUsername Started
+2023-06-02 10:12:26.682 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithEmptyUsername Passed
+2023-06-02 10:12:26.686 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:26.688 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithEmptyPassword Started
+2023-06-02 10:12:27.102 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithEmptyPassword Passed
+2023-06-02 10:12:27.114 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:27.115 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithShortPassword Started
+2023-06-02 10:12:27.393 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithShortPassword Passed
+2023-06-02 10:12:27.397 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:27.397 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutUpperCase Started
+2023-06-02 10:12:27.648 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutUpperCase Passed
+2023-06-02 10:12:27.652 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:27.654 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutLowerCase Started
+2023-06-02 10:12:27.920 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutLowerCase Passed
+2023-06-02 10:12:27.922 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:27.923 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutSpecialChar Started
+2023-06-02 10:12:28.135 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutSpecialChar Passed
+2023-06-02 10:12:28.137 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:28.137 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutNumber Started
+2023-06-02 10:12:28.363 [main] INFO  apiUtilities.ExtentReportManager - testCreateUserWithPasswordWithoutNumber Passed
+2023-06-02 10:12:28.646 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:28.646 [main] INFO  apiUtilities.ExtentReportManager - checkBookPagesByIsbn Started
+2023-06-02 10:12:28.904 [main] INFO  apiUtilities.ExtentReportManager - checkBookPagesByIsbn Passed
+2023-06-02 10:12:28.907 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:28.908 [main] INFO  apiUtilities.ExtentReportManager - getBooksAndAddBookInCollection Started
+2023-06-02 10:12:29.474 [main] INFO  apiUtilities.ExtentReportManager - getBooksAndAddBookInCollection Passed
+2023-06-02 10:12:29.475 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:29.476 [main] INFO  apiUtilities.ExtentReportManager - replaceBookInCollection Started
+2023-06-02 10:12:29.942 [main] INFO  apiUtilities.ExtentReportManager - replaceBookInCollection Passed
+2023-06-02 10:12:29.944 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:29.944 [main] INFO  apiUtilities.ExtentReportManager - deleteBookInCollection Started
+2023-06-02 10:12:30.355 [main] INFO  apiUtilities.ExtentReportManager - deleteBookInCollection Passed
+2023-06-02 10:12:30.359 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:30.359 [main] INFO  apiUtilities.ExtentReportManager - addBookInCollectionWithInvalidIsbn Started
+2023-06-02 10:12:30.575 [main] INFO  apiUtilities.ExtentReportManager - addBookInCollectionWithInvalidIsbn Passed
+2023-06-02 10:12:30.583 [main] INFO  apiUtilities.ExtentReportManager - ------------------------------------------------------
+2023-06-02 10:12:30.583 [main] INFO  apiUtilities.ExtentReportManager - deleteNotExistingBookInCollection Started
+2023-06-02 10:12:31.414 [main] INFO  apiUtilities.ExtentReportManager - deleteNotExistingBookInCollection Passed
