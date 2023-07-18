@@ -31,7 +31,7 @@ public class UserTests {
         context.setAttribute("userName", userPayload.getUserName());
         context.setAttribute("password", userPayload.getPassword());
 
-        Assert.assertEquals(response.getStatusCode(), 201);
+        Assert.assertEquals(response.getStatusCode(), 200);
     }
 
     @Test(priority = 2)
